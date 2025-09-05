@@ -39,37 +39,165 @@
   <main>
     <h1>art.helloryan.se</h1>
 
+    <p>
+      <strong>Welcome!</strong> I'm Ryan, and this is my collection of work.
+    </p>
+
+    <div class="bordered">
+      <p>
+        <strong>I'm available for hire!</strong>
+        <a href="#available">Read more</a>.
+      </p>
+    </div>
+
     <h2>Code is Art!</h2>
 
     <p>
-      art is a collection of open-source projects, mainly C++
-      libraries useful for building applications. E.g. libart-json for
-      JSON manipulation and the libart-seafire collection implementing
-      an HTTP/1.1 server based on ASIO.
+      art is a collection of open-source packages — primarily C++
+      libraries — designed for building powerful applications.
+      The packages are hosted on <a href="http://code.helloryan.se/">code.helloryan.se</a>
+      and are mirrored on <a href="https://github.com/by-ryan/">GitHub</a>.
     </p>
 
-    <p class="bordered">
-      libart-seafire is named in honor of my beloved dog, Sefyr.
+    <h2>Packages / Projects</h2>
+
+    <h3>
+      <a href="https://code.helloryan.se/art/libart-json">
+        libart-json
+      </a>
+    </h3>
+
+    <p>
+      It supports raw serialization and deserialization of JSON data,
+      along with a marshaling API.
     </p>
+
+    <h3>
+      <a href="https://code.helloryan.se/art/libart-query">
+        libart-query
+      </a>
+    </h3>
+
+    <p>
+      libart-query implements a simple query language for C++. Useful
+      for powering advanced search functionality in applications.
+    </p>
+
+    <h3>
+      <a href="https://code.helloryan.se/art/libart-seafire-server">
+        libart-seafire
+      </a>
+    </h3>
+
+    <p>
+      The libart-seafire is a collection of packages that implement the
+      HTTP/1.1 specification based on the RFC 723x documents.
+    </p>
+
+    <p>
+      libart-seafire is split into the following packages:
+    </p>
+
+    <ul>
+      <li>libart-seafire-common: contains common code.</li>
+      <li>libart-seafire-protocol: implements the HTTP/1.1 protocol.</li>
+      <li>libart-seafire-server: provides an HTTP/1.1 server implementation.</li>
+      <li>libart-seafire-representation: provides abstraction around representations.</li>
+      <li>libart-seafire-resources: provides abstraction around resources.</li>
+      <li>libart-seafire-routing: provides advanced routing capability.</li>
+    </ul>
+
+    <p class="bordered">
+      The project is named in honor of my beloved dog, Sefyr
+    </p>
+
+    <h3>
+      <a href="https://code.helloryan.se/art/libart-unicode">
+        libart-unicode
+      </a>
+    </h3>
+
+    <p>
+      libart-unicode provides simple encoding and decoding of Unicode
+      data. For example, converting text between UTF-16 and UTF-8.
+    </p>
+
+    <h3>
+      <a href="https://code.helloryan.se/art/libart-uri">
+        libart-uri
+      </a>
+    </h3>
+
+    <p>
+      libart-uri provides a parser and generator for URIs.
+    </p>
+
+    <h3>
+      <a href="https://code.helloryan.se/art/libart-validation">
+        libart-validation
+      </a>
+    </h3>
+
+    <p>
+      libart-validation is a very bare-bones testing library for C++.
+    </p>
+
+    <h2>Future</h2>
+
+    <p>
+      Future plans include:
+    </p>
+
+    <ul>
+      <li>A PDF-1.4 library with the ultimate goal of producing PDF/A-conformant documents.</li>
+      <li>A reporting engine for C++ with an editor implemented in Angular.</li>
+      <li>A scripting/DSL environment for C++ applications, think sandboxed VBA-style.</li>
+      <li>I'm always open to new ideas!</li>
+    </ul>
 
     <h2>Questions</h2>
 
     <p>
-      Any questions? Send them to
+      Feel free to reach out at
       <a href="mailto:art@helloryan.se">art@helloryan.se</a>
-      and I will get back to you as soon as possible.
+      —
+      I’ll get back to you as soon as possible.
     </p>
 
     <h2>Contributing</h2>
 
     <p>
-      Contributions are very welcome!
+      Contributions are always welcome!
     </p>
 
     <p>
-      To request write access to issues and code repository, send an
+      To request write access to issues and the code repository, send an
       e-mail to <a href="mailto:art@helloryan.se">art@helloryan.se</a>.
     </p>
+
+    <div id="available"
+         class="bordered"
+         style="margin-top: 1rem;">
+      <h2>
+        Available for hire!
+      </h2>
+
+      <p>
+        Need help? Get in touch at
+        <a href="mailto:ryan@helloryan.se">ryan@helloryan.se</a>.
+      </p>
+
+      <p>
+        I specialize in:
+      </p>
+
+      <ul>
+        <li>C for the ATmega-series MCUs.</li>
+        <li>Generic C++ for Linux and sometimes Windows (including legacy MFC).</li>
+        <li>C#/.NET MAUI (primarily for the Android platform).</li>
+        <li>Angular/TypeScript for web applications.</li>
+      </ul>
+    </div>
   </main>
 </body>
 

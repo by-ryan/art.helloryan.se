@@ -50,12 +50,44 @@ h2
   font-size: 1.6rem;
 }
 
+h2:first-child
+{
+  margin-top: 0;
+}
+
+ol,
+ul
+{
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+a,
+a:link,
+a:visited
+{
+  color: #A06CD5;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #6247AA;
+}
+
 .bordered
 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
   margin: 0 -1rem;
   padding: 1rem;
 
   border: 4px double black;
+  border-color: #A06CD5;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   background: rgb(245, 245, 245);
 }
