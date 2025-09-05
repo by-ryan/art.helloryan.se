@@ -58,6 +58,10 @@ h2:first-child
 ol,
 ul
 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
   list-style-position: inside;
   list-style-type: square;
 }
