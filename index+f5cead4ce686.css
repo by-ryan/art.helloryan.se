@@ -169,7 +169,8 @@ textarea
   font: inherit;
   line-height: 1.5;
 
-  border: 1px solid black;;
+  border: 1px solid black;
+  ;
   border-radius: 2px;
   outline: none;
 }
@@ -232,4 +233,18 @@ button
 .bordered:last-child
 {
   margin-bottom: 0;
+}
+
+.dedication
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sefyr
+{
+  width: 7rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
