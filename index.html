@@ -50,16 +50,6 @@
       </p>
     </div>
 
-    <h2>Code is Art!</h2>
-
-    <p>
-      The <strong>art</strong> family is a collection of open-source
-      packages — primarily C++ libraries — designed for building
-      powerful applications. The packages are hosted on
-      <a href="http://code.helloryan.se/">code.helloryan.se</a> and
-      mirrored on <a href="https://github.com/by-ryan/">GitHub</a>.
-    </p>
-
     <div class="bordered">
       <h2>
         Sponsorship
@@ -72,9 +62,20 @@
       </p>
 
       <p>
-        <a href="https://patreon.com/helloryan">Become a sponsor!</a>
+        <a class="cta"
+           href="https://patreon.com/helloryan">Become a sponsor!</a>
       </p>
     </div>
+
+    <h2>Code is Art!</h2>
+
+    <p>
+      The <strong>art</strong> family is a collection of open-source
+      packages — primarily C++ libraries — designed for building
+      powerful applications. The packages are hosted on
+      <a href="http://code.helloryan.se/">code.helloryan.se</a> and
+      mirrored on <a href="https://github.com/by-ryan/">GitHub</a>.
+    </p>
 
     <h2>Packages / Projects</h2>
 
@@ -207,11 +208,6 @@
       </h2>
 
       <p>
-        Need help? Get in touch at
-        <a href="mailto:ryan@helloryan.se">ryan@helloryan.se</a>.
-      </p>
-
-      <p>
         I specialize in:
       </p>
 
@@ -221,6 +217,69 @@
         <li>C#/.NET MAUI (primarily for the Android platform).</li>
         <li>Angular/TypeScript for web applications.</li>
       </ul>
+
+      <p>
+        Need help? Get in touch at
+        <a href="mailto:ryan@helloryan.se">ryan@helloryan.se</a>.
+        You can also use the form below.
+      </p>
+
+      <form action="https://formspree.io/f/mwpnalov"
+            method="POST">
+        <label>
+          <div>Name:</div>
+
+          <input type="text"
+                 name="Name"
+                 required>
+        </label>
+
+        <label>
+          <div>E-mail:</div>
+
+          <input type="email"
+                 name="E-mail"
+                 required>
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox"
+                 name="C">
+
+          <div>I need help with C</div>
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox"
+                 name="C++">
+
+          <div>I need help with C++</div>
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox"
+                 name=".NET">
+
+          <div>I need help with C#/.NET (.NET MAUI)</div>
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox"
+                 name="Angular/TypeScript">
+
+          <div>I need help with Angular/TypeScript</div>
+        </label>
+
+        <label>
+          <div>Message:</div>
+
+          <textarea name="Message"
+                    required></textarea>
+        </label>
+
+        <button type="submit"
+                class="cta">Send Message</button>
+      </form>
     </div>
   </main>
 </body>

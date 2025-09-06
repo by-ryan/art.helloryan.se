@@ -12,6 +12,9 @@ html
 
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
+
+  --accent-light: #00487C;
+  --accent-dark: #00487C;
 }
 
 body
@@ -22,6 +25,8 @@ body
 
   margin: 0;
   padding: 2rem;
+
+  color: #2E3138;
 
   line-height: 1.5;
 }
@@ -121,14 +126,84 @@ a,
 a:link,
 a:visited
 {
-  color: #A06CD5;
+  color: var(--accent-light);
   text-decoration: none;
 }
 
 a:hover
 {
-  color: #6247AA;
+  color: var(--accent-dark);
 }
+
+form
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+label
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label.checkbox
+{
+  flex-direction: row;
+}
+
+label>div
+{
+  display: flex;
+}
+
+input,
+textarea
+{
+  display: block;
+
+  padding: 0.25rem;
+
+  font: inherit;
+  line-height: 1.5;
+
+  border: 1px solid black;;
+  border-radius: 2px;
+  outline: none;
+}
+
+input:focus-visible,
+textarea:focus-visible
+{
+  border: 1px solid #027BCE;
+  outline: none;
+}
+
+button
+{
+  font: inherit;
+  outline: none;
+  border: none;
+}
+
+.cta,
+.cta:link,
+.cta:visited
+{
+  display: inline-block;
+
+  padding: 0.75rem 1rem;
+
+  color: white;
+  background: var(--accent-light);
+
+  border-radius: 4px;
+}
+
+.cta:hover
+{}
 
 .larger
 {
@@ -143,11 +218,10 @@ a:hover
   padding: 1rem;
 
   border: 4px double black;
-  border-color: #A06CD5;
+  border-color: var(--accent-light);
+  border-radius: 4px;
 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-  background: rgb(245, 245, 245);
 }
 
 .bordered:first-child
